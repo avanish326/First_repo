@@ -1,0 +1,11 @@
+<browserTypes>
+<browserType>
+	<name>chromeHL</name>
+	<displayName>ChromeHL</displayName>
+	<icon>chrome.png</icon>
+	<path>/usr/bin/google-chrome</path>
+	<options>--no-default-browser-check --user-data-dir=$userDir/browser/chrome/profiles/sahi$threadNo --proxy-server=127.0.0.1:$port --disable-popup-blocking --headless --disable-gpu --no-sandbox --remote-debugging-port=9222</options>
+	<processName>chrome</processName>
+	<capacity>5</capacity>
+</browserType>
+</browserTypes>
